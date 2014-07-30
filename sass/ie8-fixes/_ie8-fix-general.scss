@@ -1,6 +1,6 @@
 /* General IE8 fixes */
 .lt-ie9 .top-bar {
-  background: #2f2f2f;
+  background: $topbar-bg-color;
   *zoom: 1;
   overflow: visible;
 }
@@ -21,7 +21,7 @@
   position: relative;
   top: 8px;
 }
-.lt-ie9 .top-bar.expanded { background: #111111; }
+.lt-ie9 .top-bar.expanded { background: $topbar-bg-color; }
 .lt-ie9 .contain-to-grid .top-bar {
   max-width: 57.5em;
   margin: 0 auto;
@@ -38,14 +38,20 @@
   display: inline;
 }
 .lt-ie9 .top-bar-section ul li { float: left; }
-.lt-ie9 .top-bar-section ul li > a { padding-right: 14px !important; }
+.lt-ie9 .top-bar-section ul li > a { padding-right: 14px !important; background: $topbar-bg-color;}
 .lt-ie9 .top-bar-section ul li .js-generated { display: none; }
 .lt-ie9 .top-bar-section li a:not(.button) {
   padding: 0 15px;
   line-height: 45px;
-  background: #111111;
+  background: $topbar-bg-color;
 }
-.lt-ie9 .top-bar-section li a:not(.button):hover { background: #2b2b2b; }
+.lt-ie9 .top-bar-section ul li > a.button{
+  background: $primary-color;
+}
+.lt-ie9 .top-bar-section ul li > a.button:hover{
+  background: darken($primary-color,10%);
+}
+.lt-ie9 .top-bar-section li a:not(.button):hover { background: $topbar-bg-color; }
 .lt-ie9 .top-bar-section .has-dropdown > a { padding-right: 35px !important; }
 .lt-ie9 .top-bar-section .has-dropdown > a:after {
   content: "";
@@ -56,7 +62,8 @@
   border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
   margin-top: -2.5px;
 }
-.lt-ie9 .top-bar-section .has-dropdown { position: relative; }
+.lt-ie9 .top-bar-section .has-dropdown { position: relative; background: $topbar-bg-color; }
+.lt-ie9 .top-bar-section .has-dropdown:hover { background: $topbar-dropdown-bg; }
 .lt-ie9 .top-bar-section .has-dropdown:hover > .dropdown,
 .lt-ie9 .top-bar-section .has-dropdown:active > .dropdown { visibility: visible; }
 .lt-ie9 .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
@@ -74,11 +81,11 @@
   line-height: 1;
   white-space: nowrap;
   padding: 7px 15px;
-  background: #1e1e1e;
+  background: $topbar-dropdown-bg;
 }
 .lt-ie9 .top-bar-section .dropdown li label {
   white-space: nowrap;
-  background: #1e1e1e;
+  background: $topbar-dropdown-bg;
 }
 .lt-ie9 .top-bar-section .dropdown li .dropdown {
   left: 100%;
@@ -94,7 +101,7 @@
   width: 0px;
 }
 .lt-ie9 .top-bar-section .has-form {
-  background: #111111;
+  background: $topbar-bg-color;
   padding: 0 15px;
   height: 45px;
 }
@@ -136,7 +143,7 @@
   visibility: visible; /* makes the dropdown visible on hover */
 }
 .lt-ie9 .top-bar-section .dropdown li a:hover{
-  background: #000;
+  background: $topbar-bg-color;
 }
 .lt-ie9 .top-bar-section .has-dropdown > a:after {
  border: 0 none !important;
