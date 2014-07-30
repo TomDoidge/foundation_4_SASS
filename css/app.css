@@ -6171,34 +6171,35 @@ a.th {
     max-width: 800px; }
 
 /* My custom styles */
-/* line 1, ../sass/_ie8-fix.scss */
+/* General IE8 fixes */
+/* line 2, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar {
   background: #2f2f2f;
   *zoom: 1;
   overflow: visible; }
 
-/* line 6, ../sass/_ie8-fix.scss */
+/* line 7, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar:before, .lt-ie9 .top-bar:after {
   content: " ";
   display: table; }
 
-/* line 10, ../sass/_ie8-fix.scss */
+/* line 11, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar:after {
   clear: both; }
 
-/* line 11, ../sass/_ie8-fix.scss */
+/* line 12, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .toggle-topbar {
   display: none; }
 
-/* line 12, ../sass/_ie8-fix.scss */
+/* line 13, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .title-area {
   float: left; }
 
-/* line 13, ../sass/_ie8-fix.scss */
+/* line 14, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .name h1 a {
   width: auto; }
 
-/* line 15, ../sass/_ie8-fix.scss */
+/* line 16, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar input,
 .lt-ie9 .top-bar .button {
   line-height: 2em;
@@ -6208,55 +6209,55 @@ a.th {
   position: relative;
   top: 8px; }
 
-/* line 23, ../sass/_ie8-fix.scss */
+/* line 24, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar.expanded {
   background: #111111; }
 
-/* line 24, ../sass/_ie8-fix.scss */
+/* line 25, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .contain-to-grid .top-bar {
   max-width: 57.5em;
   margin: 0 auto; }
 
-/* line 28, ../sass/_ie8-fix.scss */
+/* line 29, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section {
   -webkit-transition: none 0 0;
   -moz-transition: none 0 0;
   transition: none 0 0;
   left: 0 !important; }
 
-/* line 34, ../sass/_ie8-fix.scss */
+/* line 35, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul {
   width: auto;
   height: auto !important;
   display: inline; }
 
-/* line 39, ../sass/_ie8-fix.scss */
+/* line 40, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul li {
   float: left; }
 
-/* line 40, ../sass/_ie8-fix.scss */
+/* line 41, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul li > a {
   padding-right: 14px !important; }
 
-/* line 41, ../sass/_ie8-fix.scss */
+/* line 42, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul li .js-generated {
   display: none; }
 
-/* line 42, ../sass/_ie8-fix.scss */
+/* line 43, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section li a:not(.button) {
   padding: 0 15px;
   line-height: 45px;
   background: #111111; }
 
-/* line 47, ../sass/_ie8-fix.scss */
+/* line 48, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section li a:not(.button):hover {
   background: #2b2b2b; }
 
-/* line 48, ../sass/_ie8-fix.scss */
+/* line 49, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown > a {
   padding-right: 35px !important; }
 
-/* line 49, ../sass/_ie8-fix.scss */
+/* line 50, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown > a:after {
   content: "";
   display: block;
@@ -6266,46 +6267,46 @@ a.th {
   border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
   margin-top: -2.5px; }
 
-/* line 58, ../sass/_ie8-fix.scss */
+/* line 59, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown {
   position: relative; }
 
-/* line 60, ../sass/_ie8-fix.scss */
+/* line 61, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown:hover > .dropdown,
 .lt-ie9 .top-bar-section .has-dropdown:active > .dropdown {
   visibility: visible; }
 
-/* line 61, ../sass/_ie8-fix.scss */
+/* line 62, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
   border: none;
   content: "\00bb";
   margin-top: -7px;
   right: 5px; }
 
-/* line 67, ../sass/_ie8-fix.scss */
+/* line 68, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .dropdown {
   left: 0;
   top: auto;
   background: transparent; }
 
-/* line 72, ../sass/_ie8-fix.scss */
+/* line 73, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .dropdown li a {
   line-height: 1;
   white-space: nowrap;
   padding: 7px 15px;
   background: #1e1e1e; }
 
-/* line 78, ../sass/_ie8-fix.scss */
+/* line 79, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .dropdown li label {
   white-space: nowrap;
   background: #1e1e1e; }
 
-/* line 82, ../sass/_ie8-fix.scss */
+/* line 83, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .dropdown li .dropdown {
   left: 100%;
   top: 0; }
 
-/* line 86, ../sass/_ie8-fix.scss */
+/* line 87, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section > ul > .divider {
   border-bottom: none;
   border-top: none;
@@ -6315,275 +6316,275 @@ a.th {
   height: 45px;
   width: 0px; }
 
-/* line 95, ../sass/_ie8-fix.scss */
+/* line 96, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-form {
   background: #111111;
   padding: 0 15px;
   height: 45px; }
 
-/* line 100, ../sass/_ie8-fix.scss */
+/* line 101, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul.right li .dropdown {
   left: auto;
   right: 0; }
 
-/* line 104, ../sass/_ie8-fix.scss */
+/* line 105, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section ul.right li .dropdown li .dropdown {
   right: 100%; }
 
-/* line 106, ../sass/_ie8-fix.scss */
+/* line 107, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul > li > a {
   z-index: 9999;
   /* makes the first child links clickable */ }
 
 /*dropdown level one*/
-/* line 113, ../sass/_ie8-fix.scss */
+/* line 114, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul > li.has-dropdown .dropdown {
   visibility: hidden; }
 
-/* line 117, ../sass/_ie8-fix.scss */
+/* line 118, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul > li.has-dropdown:hover .dropdown {
   visibility: visible;
   /* makes the dropdown visible on hover */ }
 
 /*dropdown level two*/
-/* line 123, ../sass/_ie8-fix.scss */
+/* line 124, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul > li.has-dropdown ul.dropdown > li.has-dropdown .dropdown {
   visibility: hidden; }
 
-/* line 126, ../sass/_ie8-fix.scss */
+/* line 127, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul > li.has-dropdown ul.dropdown > li.has-dropdown:hover .dropdown {
   visibility: visible;
   /* makes the dropdown visible on hover */ }
 
 /*dropdown level three*/
-/* line 131, ../sass/_ie8-fix.scss */
+/* line 132, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul li ul.dropdown li.has-dropdown ul.dropdown li.has-dropdown .dropdown {
   visibility: hidden; }
 
-/* line 134, ../sass/_ie8-fix.scss */
+/* line 135, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar .top-bar-section ul li ul.dropdown li.has-dropdown ul.dropdown li.has-dropdown:hover .dropdown {
   visibility: visible;
   /* makes the dropdown visible on hover */ }
 
-/* line 137, ../sass/_ie8-fix.scss */
+/* line 138, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .dropdown li a:hover {
   background: #000; }
 
-/* line 140, ../sass/_ie8-fix.scss */
+/* line 141, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown > a:after {
   border: 0 none !important; }
 
-/* line 143, ../sass/_ie8-fix.scss */
+/* line 144, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .top-bar-section .has-dropdown > a {
   background: url("../img/white-dropdown-arrow.png") no-repeat scroll 92% 18px transparent; }
 
 /* Small Block Grids */
-/* line 149, ../sass/_ie8-fix.scss */
+/* line 150, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-2 {
   list-style: none; }
 
-/* line 153, ../sass/_ie8-fix.scss */
+/* line 154, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-2 li {
   float: left;
   width: 50%;
   padding: 0 10px 10px; }
 
-/* line 159, ../sass/_ie8-fix.scss */
+/* line 160, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-2 li:first-child + li {
   float: right; }
 
-/* line 163, ../sass/_ie8-fix.scss */
+/* line 164, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-2 li:first-child + li + li {
   clear: both; }
 
-/* line 167, ../sass/_ie8-fix.scss */
+/* line 168, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-3 {
   list-style: none; }
 
-/* line 171, ../sass/_ie8-fix.scss */
+/* line 172, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-3 li {
   float: left;
   width: 33.3333%;
   padding: 0 10px 10px; }
 
-/* line 177, ../sass/_ie8-fix.scss */
+/* line 178, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-3 li:first-child + li + li {
   float: right; }
 
-/* line 181, ../sass/_ie8-fix.scss */
+/* line 182, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-3 li:first-child + li + li + li {
   clear: both; }
 
-/* line 185, ../sass/_ie8-fix.scss */
+/* line 186, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-4 {
   list-style: none; }
 
-/* line 189, ../sass/_ie8-fix.scss */
+/* line 190, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-4 li {
   float: left;
   width: 25%;
   padding: 0 10px 10px; }
 
-/* line 195, ../sass/_ie8-fix.scss */
+/* line 196, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-4 li:first-child + li + li + li {
   float: right; }
 
-/* line 199, ../sass/_ie8-fix.scss */
+/* line 200, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-4 li:first-child + li + li + li + li {
   clear: both; }
 
-/* line 203, ../sass/_ie8-fix.scss */
+/* line 204, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-5 {
   list-style: none; }
 
-/* line 207, ../sass/_ie8-fix.scss */
+/* line 208, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-5 li {
   float: left;
   width: 20%;
   padding: 0 10px 10px; }
 
-/* line 213, ../sass/_ie8-fix.scss */
+/* line 214, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-5 li:first-child + li + li + li + li {
   float: right; }
 
-/* line 217, ../sass/_ie8-fix.scss */
+/* line 218, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-5 li:first-child + li + li + li + li + li {
   clear: both; }
 
-/* line 221, ../sass/_ie8-fix.scss */
+/* line 222, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-6 {
   list-style: none; }
 
-/* line 225, ../sass/_ie8-fix.scss */
+/* line 226, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-6 li {
   float: left;
   width: 16.6667%;
   padding: 0 10px 10px; }
 
-/* line 231, ../sass/_ie8-fix.scss */
+/* line 232, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-6 li:first-child + li + li + li + li + li {
   float: right; }
 
-/* line 235, ../sass/_ie8-fix.scss */
+/* line 236, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-6 li:first-child + li + li + li + li + li + li {
   clear: both; }
 
-/* line 239, ../sass/_ie8-fix.scss */
+/* line 240, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-7 {
   list-style: none; }
 
-/* line 243, ../sass/_ie8-fix.scss */
+/* line 244, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-7 li {
   float: left;
   width: 14.2857142%;
   padding: 0 10px 10px; }
 
-/* line 249, ../sass/_ie8-fix.scss */
+/* line 250, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-7 li:first-child + li + li + li + li + li + li {
   float: right; }
 
-/* line 253, ../sass/_ie8-fix.scss */
+/* line 254, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-7 li:first-child + li + li + li + li + li + li + li {
   clear: both; }
 
-/* line 257, ../sass/_ie8-fix.scss */
+/* line 258, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-8 {
   list-style: none; }
 
-/* line 261, ../sass/_ie8-fix.scss */
+/* line 262, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-8 li {
   float: left;
   width: 12.5%;
   padding: 0 10px 10px; }
 
-/* line 267, ../sass/_ie8-fix.scss */
+/* line 268, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-8 li:first-child + li + li + li + li + li + li + li {
   float: right; }
 
-/* line 271, ../sass/_ie8-fix.scss */
+/* line 272, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-8 li:first-child + li + li + li + li + li + li + li + li {
   clear: both; }
 
-/* line 275, ../sass/_ie8-fix.scss */
+/* line 276, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-9 {
   list-style: none; }
 
-/* line 279, ../sass/_ie8-fix.scss */
+/* line 280, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-9 li {
   float: left;
   width: 11.111111%;
   padding: 0 10px 10px; }
 
-/* line 285, ../sass/_ie8-fix.scss */
+/* line 286, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-9 li:first-child + li + li + li + li + li + li + li + li {
   float: right; }
 
-/* line 289, ../sass/_ie8-fix.scss */
+/* line 290, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-9 li:first-child + li + li + li + li + li + li + li + li + li {
   clear: both; }
 
-/* line 293, ../sass/_ie8-fix.scss */
+/* line 294, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-10 {
   list-style: none; }
 
-/* line 297, ../sass/_ie8-fix.scss */
+/* line 298, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-10 li {
   float: left;
   width: 10%;
   padding: 0 10px 10px; }
 
-/* line 303, ../sass/_ie8-fix.scss */
+/* line 304, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-10 li:first-child + li + li + li + li + li + li + li + li + li {
   float: right; }
 
-/* line 307, ../sass/_ie8-fix.scss */
+/* line 308, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-10 li:first-child + li + li + li + li + li + li + li + li + li + li {
   clear: both; }
 
-/* line 311, ../sass/_ie8-fix.scss */
+/* line 312, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-11 {
   list-style: none; }
 
-/* line 315, ../sass/_ie8-fix.scss */
+/* line 316, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-11 li {
   float: left;
   width: 9.0909%;
   padding: 0 10px 10px; }
 
-/* line 321, ../sass/_ie8-fix.scss */
+/* line 322, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-11 li:first-child + li + li + li + li + li + li + li + li + li + li {
   float: right; }
 
-/* line 325, ../sass/_ie8-fix.scss */
+/* line 326, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-11 li:first-child + li + li + li + li + li + li + li + li + li + li + li {
   clear: both; }
 
-/* line 329, ../sass/_ie8-fix.scss */
+/* line 330, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-12 {
   list-style: none; }
 
-/* line 333, ../sass/_ie8-fix.scss */
+/* line 334, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-12 li {
   float: left;
   width: 8.333333%;
   padding: 0 10px 10px; }
 
-/* line 339, ../sass/_ie8-fix.scss */
+/* line 340, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-12 li:first-child + li + li + li + li + li + li + li + li + li + li + li {
   float: right; }
 
-/* line 343, ../sass/_ie8-fix.scss */
+/* line 344, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .small-block-grid-12 li:first-child + li + li + li + li + li + li + li + li + li + li + li + li {
   clear: both; }
 
 /* Foundation Visibility HTML Classes */
-/* line 350, ../sass/_ie8-fix.scss */
+/* line 351, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .show-for-small,
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-large-down {
   display: none !important; }
 
-/* line 357, ../sass/_ie8-fix.scss */
+/* line 358, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .show-for-medium,
 .lt-ie9 .show-for-medium-up,
 .lt-ie9 .show-for-large,
@@ -6591,7 +6592,7 @@ a.th {
 .lt-ie9 .show-for-xlarge {
   display: none !important; }
 
-/* line 364, ../sass/_ie8-fix.scss */
+/* line 365, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .hide-for-medium,
 .lt-ie9 .hide-for-medium-up,
 .lt-ie9 .hide-for-large,
@@ -6599,14 +6600,15 @@ a.th {
 .lt-ie9 .hide-for-xlarge {
   display: block !important; }
 
-/* line 369, ../sass/_ie8-fix.scss */
+/* line 370, ../sass/ie8-fixes/_ie8-fix-general.scss */
 .lt-ie9 .hide-for-small,
 .lt-ie9 .hide-for-medium-down,
 .lt-ie9 .hide-for-large-down {
   display: block !important; }
 
+/* Custom IE8 fixes */
 /* zurb foundation 4 grid column fix for ie8 and below */
-/* line 66, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 .lt-ie9 {
   /* thanks to pinder */
   /* allows centering block elements */
@@ -6632,151 +6634,151 @@ a.th {
   /* allows centering block elements */
   /* thanks to pinder */
   /* allows centering block elements */ }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-1, .lt-ie9 .small-1 {
     width: 8.33333%;
     *width: 8.16667%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-1 {
     margin-left: 8.33333%;
     *margin-left: 8.16667%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-1 {
     margin-left: 45.83333%;
     *margin-left: 44.91667%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-2, .lt-ie9 .small-2 {
     width: 16.66667%;
     *width: 16.33333%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-2 {
     margin-left: 16.66667%;
     *margin-left: 16.33333%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-2 {
     margin-left: 41.66667%;
     *margin-left: 40.83333%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-3, .lt-ie9 .small-3 {
     width: 25%;
     *width: 24.5%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-3 {
     margin-left: 25%;
     *margin-left: 24.5%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-3 {
     margin-left: 37.5%;
     *margin-left: 36.75%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-4, .lt-ie9 .small-4 {
     width: 33.33333%;
     *width: 32.66667%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-4 {
     margin-left: 33.33333%;
     *margin-left: 32.66667%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-4 {
     margin-left: 33.33333%;
     *margin-left: 32.66667%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-5, .lt-ie9 .small-5 {
     width: 41.66667%;
     *width: 40.83333%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-5 {
     margin-left: 41.66667%;
     *margin-left: 40.83333%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-5 {
     margin-left: 29.16667%;
     *margin-left: 28.58333%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-6, .lt-ie9 .small-6 {
     width: 50%;
     *width: 49%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-6 {
     margin-left: 50%;
     *margin-left: 49%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-6 {
     margin-left: 25%;
     *margin-left: 24.5%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-7, .lt-ie9 .small-7 {
     width: 58.33333%;
     *width: 57.16667%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-7 {
     margin-left: 58.33333%;
     *margin-left: 57.16667%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-7 {
     margin-left: 20.83333%;
     *margin-left: 20.41667%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-8, .lt-ie9 .small-8 {
     width: 66.66667%;
     *width: 65.33333%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-8 {
     margin-left: 66.66667%;
     *margin-left: 65.33333%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-8 {
     margin-left: 16.66667%;
     *margin-left: 16.33333%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-9, .lt-ie9 .small-9 {
     width: 75%;
     *width: 73.5%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-9 {
     margin-left: 75%;
     *margin-left: 73.5%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-9 {
     margin-left: 12.5%;
     *margin-left: 12.25%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-10, .lt-ie9 .small-10 {
     width: 83.33333%;
     *width: 81.66667%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-10 {
     margin-left: 83.33333%;
     *margin-left: 81.66667%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-10 {
     margin-left: 8.33333%;
     *margin-left: 8.16667%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-11, .lt-ie9 .small-11 {
     width: 91.66667%;
     *width: 89.83333%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-11 {
     margin-left: 91.66667%;
     *margin-left: 89.83333%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-11 {
     margin-left: 4.16667%;
     *margin-left: 4.08333%; }
-  /* line 8, ../sass/_columnfix.scss */
+  /* line 8, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-12, .lt-ie9 .small-12 {
     width: 100%;
     *width: 98%; }
-  /* line 14, ../sass/_columnfix.scss */
+  /* line 14, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .large-offset-12 {
     margin-left: 100%;
     *margin-left: 98%; }
-  /* line 20, ../sass/_columnfix.scss */
+  /* line 20, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .centered-12 {
     margin-left: 0%;
     *margin-left: 0%; }
-  /* line 31, ../sass/_columnfix.scss */
+  /* line 31, ../sass/ie8-fixes/_ie8-fix-column.scss */
   .lt-ie9 .row .row {
     *margin-left: 0;
     /* fix ie7 margins */ }
